@@ -1,0 +1,234 @@
+<!-- VUT FIT ITW 2024 - Resume - 
+     author: Anna Shevchenko
+     login: xshevc02-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./jscode.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="container">
+
+            <button class="sidebar-toggle" id="sidebar-toggle-button"
+            onclick="toggleSidebar()">Open Sidebar</button>
+            
+            <div class="left-content p-30" id="sidebar">
+                <div class="logo">
+                    <a href="index.html">
+                        <span>My</span>
+                        <span>Resume</span>
+                    </a>
+                </div>
+                <div class="nav">
+                    
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="DropDown()">
+                                Portfolio
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content" id="dropdowmenu">
+                                <a href=#Portfolio>Portrait Photography</a>
+                                <a href=#Portfolio>Street Photography</a>
+                                <a href=#Portfolio>Nature Photography</a>
+                            </div>
+                        </div>
+                       
+                        <li><a href=#Education>Education</a></li>
+                        <li><a href=#Contact>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="left-footer">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="https://www.linkedin.com"><i
+                                        class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com"><i
+                                        class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com"> <i class="fa fa-github"
+                                    aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com"><i
+                                        class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com"><i class="fa fa-instagram"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-contact">
+                        <ul>
+                            <li>mary.birkins@gmail.com</li>
+                            <li>+420 758 45 24</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="main-content">
+                <div class="section1 p-30" id="Home">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Home</div>
+                        <div class="pg-title">My Profile</div>
+                    </div>
+                    <div class="d-flex-align-center">
+                        <div class="user-img flex-1"><img src="photo.avif" alt="my photo"></div>
+                        <div class="user-profile flex-1">
+                            <div class="pro-details">
+                                <div class="sm-text">HELLO, I AM</div>
+                                <div class="name">Mary Birkins</div>
+                                <div class="role">Photographer</div>
+
+                            </div>
+                            <div class="text">A storyteller with a camera, weaving narratives through captivating
+                                photographs. Based in Berlin, I capture the city's diverse spirit and the beauty of
+                                everyday moments.</div>
+                            <div class="pr-list">
+                                <ul>
+
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i> +420 758 45 24</li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> mary.birkins@gmail.com</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Berlin, Germany</li>
+                                </ul>
+                            </div>
+                            <div class="social-icons-head">
+                                <ul>
+                                    <li><a href="https://www.linkedin.com"><i
+                                                class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                                    <li><a
+                                            href="https://www.facebook.com"><i
+                                                class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://github.com"><i class="fa fa-github"
+                                                aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com"><i
+                                                class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.instagram.com"><i
+                                                class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="section2 p-30" id="About">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">About</div>
+                        <div class="pg-title">About Me</div>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <div class="text">I am a Berlin-based photographer with a passion for capturing the city's
+                                vibrant spirit and the beauty of everyday moments. I specialize in portrait and street photography, and my work has been featured in several art exhibitions and publications. I am always looking for new opportunities to collaborate with other artists and creatives, so feel free to get in touch if you'd like to work together!
+                            </div>
+                            <div class="text">When I'm not behind the camera, you can find me exploring the city's hidden gems, trying out new coffee shops, or working on my latest DIY project. I love meeting new people and hearing their stories, so don't be shy – come say hello!
+
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="section3 p-30" id="Portfolio">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Portfolio</div>
+                        <div class="pg-title">My Work</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-item">
+                            <div class="portfolio-img">
+                                <img src="portret.avif" alt="portret">
+                            </div>
+                            <div class="portfolio-text">
+                                <div class="text">Portrait Photography
+                                </div>
+                                <div class="text">Capturing the essence of a person in a single frame.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-img">
+                                <img src="street.avif" alt="photo of street">
+                            </div>
+                            <div class="portfolio-text">
+                                <div class="text">Street Photography
+                                </div>
+                                <div class="text">Exploring the city's hidden gems and capturing everyday moments.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-img">
+                                <img src="nature.avif" alt="photo of nature">
+                            </div>
+                            <div class="portfolio-text">
+                                <div class="text">Nature Photography
+                                </div>
+                                <div class="text">Celebrating the beauty of the natural world.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section4 p-30" id="Education">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Education</div>
+                        <div class="pg-title">My Education</div>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-item">
+                            <div class="education-year">2010-2014</div>
+                            <div class="education-details">
+                                <div class="education-title">Bachelor of Fine Arts</div>
+                                <div class="education-institute">Berlin University of the Arts</div>
+                                <div class="education-text">Specialization in Photography</div>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-year">2014-2016</div>
+                            <div class="education-details">
+                                <div class="education-title">Master of Fine Arts</div>
+                                <div class="education-institute">Berlin University of the Arts</div>
+                                <div class="education-text">Specialization in Visual Arts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section5 p-30" id="Contact">
+                    <div class="sec-title">
+                        <div class="pg-sub-title">Contact</div>
+                        <div class="pg-title">Get In Touch</div>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-form">
+                            <form action="index.html" method="post">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group email">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group message">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required></textarea>
+                                </div>
+                                <div class="form-group submit">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
