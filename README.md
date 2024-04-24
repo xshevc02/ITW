@@ -2,6 +2,10 @@
 
 This repository contains the HTML, CSS, and JavaScript files for an interactive resume website. The website features a sidebar with navigation links to different sections, including Home, About, Portfolio, Education, and Contact.
 
+## Website
+
+The website is hosted on GitHub Pages. You can access it [here](https://xshevc02.github.io/ITW/).
+
 ## Files
 
 - **index.html**: This is the main HTML document for the website. It serves as the base structure for the resume website.
